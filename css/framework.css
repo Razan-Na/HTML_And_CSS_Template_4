@@ -1,0 +1,390 @@
+/* Start box  */
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-self: flex-start;
+}
+.between-flex{
+    justify-content: space-between;
+}
+.f-end{
+    justify-content: flex-end;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-1{
+    flex: 1;
+}
+.d-grid{
+    display: grid;
+}
+.gap-10{
+    gap: 10px;    
+}
+.gap-20{
+    gap: 20px;
+}
+.d-block{
+    display: block;
+}
+@media(max-width:767px){
+    .block-mobile{
+        display: block;
+    }
+}
+/* End Box  */
+/* Start position  */
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+/* End Position  */
+/* Start border  */
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.b-half{
+    border-radius: 50%;
+}
+.b-none{
+    border: none;
+}
+.b-ccc{
+    border: 1px solid #ccc;
+}
+.b-eee{
+    border: 1px solid #eee;
+}
+.b-white-2{
+    border: 2px solid white;
+}
+.bt-ccc{
+    border-top: 1px solid #ccc;  
+}
+.bt-eee{
+    border-top: 1px solid #eee;
+}
+.br-eee{
+    border-right: 1px solid #eee;
+}
+.bb-eee{
+    border-bottom: 1px solid #eee;
+}
+/* End Border  */
+/* Start padding+ margin  */
+.p-10{
+    padding: 10px;
+}
+.p-20{
+padding: 20px;
+}
+.p-15{
+    padding: 15px;
+}
+.pt-0{
+    padding-top: 0;
+}
+.pt-10{
+    padding-top: 10px; 
+}
+.pt-15{
+    padding-top: 15px; 
+}
+.pt-20{
+    padding-top: 20px; 
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.m-auto{
+    margin: auto;
+}
+.m-0{
+    margin: 0px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-4{
+    margin-top: 4px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-6{
+    margin-top: 6px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mr-4{
+    margin-right: 4px;
+}
+.mr-6{
+    margin-right: 6px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-6 {
+    margin-bottom: 6px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+/* End padding+ margin  */
+/* Start Color  */
+.bgc-eee{
+    background-color: #eee;
+}
+.bgc-white{
+    background-color: white;
+}
+.bgc-blue{
+    background-color: var(--blue-color);
+}
+.bgc-orange{
+    background-color: var(--orange-color);
+}
+.bgc-green{
+    background-color: var(--green-color);
+}
+.bgc-red{
+    background-color: var(--red-color); 
+}
+.c-blue{
+    color: var(--blue-color); 
+}
+.c-orange{
+    color: var(--orange-color); 
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-black{
+    color: black;
+}
+.c-eee{
+    background-color: #eee;
+}
+.c-gray{
+    color: var(--grey-color);
+}
+.c-white{
+    color: white;
+}
+.c-red{
+    color:var(--red-color) ;
+}
+.c-666{
+    color: #666;
+}
+.opacity-02{
+    opacity: 0.2;
+}
+/* End Color  */
+/* Start Size  */
+.w-full{
+    width: 100%;
+}
+.w-fit{
+    width: fit-content;
+}
+.w-max-300{
+    max-width: 300px;
+}
+.w-min-260{
+    min-width: 260px;
+}
+.w-070{
+width: 70%;
+}
+.w-32{
+    width: 32px; 
+}
+.w-40{
+    width: 40px; 
+}
+.w-56{
+    width: 56px; 
+}
+.w-64{
+    width: 64px; 
+}
+.w-100{
+    width: 100px;
+}
+.w-120{
+    width: 120px;
+}
+.w-250{
+    width: 250px;
+}
+.w-300{
+    width: 300px;
+}
+.f-height{
+    height: 100%;
+}
+.m-height-80{
+    min-height: 80px;
+}
+.h-6{
+    height: 6px;
+}
+.h-8{
+    height: 8px;
+}
+.h-20{
+    height: 20px;
+}
+.h-40{
+    height: 40px;
+}
+.h-150{
+    height: 150px;
+}
+.ovf-hidden{
+overflow: hidden;
+}
+/* End Size  */
+/* Start Fonts  */
+.f-13{
+    font-size: 13px;
+}
+.f-14{
+    font-size: 14px;
+}
+.f-15{
+    font-size: 15px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-24{
+    font-size: 24px;
+}
+.f-25{
+    font-size: 25px;
+}
+.f-40{
+    font-size: 40px;
+}
+.fw-b{
+    font-weight: bold;
+}
+.fw-normal{
+    font-weight: normal;
+}
+.txt-center{
+    text-align: center;
+}
+.txt-right{
+    text-align: right;
+}
+@media(max-width:767px){
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+/* End Fonts  */
+/* Start Cursor  */
+.cur-pointer{
+    cursor: pointer;
+}
+/* End Cursor  */
+/* Start Media  */
+@media(max-width: 767px){
+.mobile-hidden{
+    display: none;
+}
+}
+/* End Media  */
+/* Start Components  */
+.f-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-shape{
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+/* End Components  */
+/* <label>
+    <input type="checkbox" name="" id="" class="toggle-checkbox" checked>
+    <div class="toggle-switch"></div>
+</label>  */
